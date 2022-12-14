@@ -846,3 +846,27 @@ th.column-count {
 .payment-group label.control--big {
   max-width: 400px;
 }
+
+/* input[type="date" i]::-webkit-calendar-picker-indicator {
+  background-image: url('../assets/Arrow_Right.svg');
+} */
+
+#example .container {
+  display: flex;
+  gap: 15px;
+}
+
+.static-block {
+  height: 3000px;
+  width: 800px;
+  background-color: #505567;
+}
+
+.sticky-block {
+  position: sticky;
+  align-self: flex-start;
+  width: 280px;
+  height: 400px;
+  background-color: #0093a2;
+  top: 10px;  
+}
